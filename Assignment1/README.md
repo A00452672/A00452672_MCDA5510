@@ -1,7 +1,7 @@
 # A00452672_MCDA5510
 Welcome to my Directory traversal program.
 
-######Assumptions####### 
+###### Assumptions ####### 
 1) Any record with "," in their column is considered as a invalid record. If this condition needs to be removed, then changes need to be done in the CutomerValidator.cs file. The ".contains" section needs to be removed. 
 	Then How will CSVHelper library consider the "," ?
 	Answer: While writing back the record to the csv write all values with double quotes. For ex: "address,is,number 10, lake road","Halifax" will be just two records and double quotes is the delimiting value.
